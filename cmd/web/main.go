@@ -58,6 +58,8 @@ func main() {
 
 	flag.Parse()
 
+	log.Println("hello world")
+
 	cfg.stripe.key = os.Getenv("STRIPE_KEY")
 	cfg.stripe.secret = os.Getenv("STRIPE_SECRET")
 
