@@ -1,5 +1,8 @@
 ## Go Terminal Read Me
 
+### Default Style
+- go run ./cmd/web
+
 ### Running our local project with Nodemon 
 
 - ``nodemon --exec go run main.go --signal SIGTERM``
